@@ -15,7 +15,6 @@ Requires:	SDL >= 1.2.0
 Requires:	SDL_image >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 DuduSDL is a clone of the well-known arcade game Puzzle Bubble,
