@@ -9,6 +9,8 @@ Source0:	http://cesnet.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}
 URL:		http://dudusdl.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel >= 1.2.0
+BuildRequires:	autoconf
+BuildRequires:	automake
 Requires:	SDL >= 1.2.0
 Requires:	SDL_image >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,7 +29,7 @@ trybie dla jednego i dwóch graczy.
 %setup -q
 
 %build
-aclocal
+%{__aclocal}
 %{__automake}
 %{__autoconf}
 %configure
@@ -45,7 +47,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog README README.FR
+%doc AUTHORS ChangeLog README
+%lang(fr) %doc README.FR
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_pixmapsdir}/dudu.png
