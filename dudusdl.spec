@@ -5,7 +5,7 @@ Version:	0.1.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://cesnet.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	a51e8612f06d0201bd7f6729f73a242f
 URL:		http://dudusdl.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
