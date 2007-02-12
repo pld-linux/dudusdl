@@ -1,5 +1,5 @@
 Summary:	Duzzle Duddle arcade game
-Summary(pl.UTF-8):   Gra Duzzle Duddle
+Summary(pl.UTF-8):	Gra Duzzle Duddle
 Name:		dudusdl
 Version:	0.1.3
 Release:	1
