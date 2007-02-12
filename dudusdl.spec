@@ -1,5 +1,5 @@
 Summary:	Duzzle Duddle arcade game
-Summary(pl):	Gra Duzzle Duddle
+Summary(pl.UTF-8):   Gra Duzzle Duddle
 Name:		dudusdl
 Version:	0.1.3
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DuduSDL is a clone of the well-known arcade game Puzzle Bubble,
 playable in single-player and two-player modes.
 
-%description -l pl
-DuduSDL to klon dobrze znanej gry Puzzle Bubble. Mo¿na w ni± graæ w
-trybie dla jednego i dwóch graczy.
+%description -l pl.UTF-8
+DuduSDL to klon dobrze znanej gry Puzzle Bubble. MoÅ¼na w niÄ… graÄ‡ w
+trybie dla jednego i dwÃ³ch graczy.
 
 %prep
 %setup -q
